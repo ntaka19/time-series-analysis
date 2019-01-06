@@ -12,8 +12,8 @@ def cordim(N,m,f):
     tau=10
     xx=np.array([np.array([ f[i+tau*j] for j in range(m)] ) for i in range(N-m*tau) ])
 
-    M=10000
-    rlist=[0.1,0.5, 1.0, 5, 10, 100,1000]
+    M=1000
+    rlist=[0.001,0.005,0.01, 0.05, 0.1,0,15 ,0.2, 0.5,1.0,1.5,2.0]
 
     for r in rlist:
         count=0

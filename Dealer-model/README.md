@@ -2,6 +2,10 @@
 
 ### 2 Dealer model:
 
+\begin{equation}
+x=
+\end{equation}
+
 $x_i(t)$ 各ディーラーが提示する注文価格の中央値
 $f_i (t)$ 注文価格の変動値
 $ x _ { i } ( t + \Delta t ) = x _ { i } ( t ) + f _ { i } ( t )$
